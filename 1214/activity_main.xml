@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textViewCal8"
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.5"
+            android:text="" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="학점"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="성적"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="전공"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="1, 2, 3"
+            android:inputType="number"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/test" />
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/test" />
+
+        <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/test" />
+
+        <CheckBox
+            android:id="@+id/check2"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/test" />
+
+        <CheckBox
+            android:id="@+id/check3"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/test" />
+
+        <CheckBox
+            android:id="@+id/check4"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/test" />
+
+        <CheckBox
+            android:id="@+id/check5"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/test" />
+
+        <CheckBox
+            android:id="@+id/check6"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/test" />
+
+        <CheckBox
+            android:id="@+id/check7"
+            android:layout_width="74dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="74dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="전학기까지 취득한 총학점 입력"
+            android:inputType="number"
+            android:text="" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#253AAC"
+            android:backgroundTint="#FDFDFD"
+            android:fontFamily="@font/jalnan"
+            android:onClick="gradeCal"
+            android:text="학점 계산" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textViewCal9"
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.5"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textViewResult1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textViewResult2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewResult3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textViewResult4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>
